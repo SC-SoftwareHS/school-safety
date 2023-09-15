@@ -1,5 +1,5 @@
 // YouTubeVideo.tsx
-import React from 'react';
+import React from 'react'
 
 interface YouTubeVideoProps {
   videoId: string // The ID of the YouTube video to embed

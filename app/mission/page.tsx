@@ -5,5 +5,4 @@ const MissionPage: React.FC = () => {
     </div>
   )
 }
-
-export default MissionPage;
+export default MissionPage
