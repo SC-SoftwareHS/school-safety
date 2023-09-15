@@ -2,11 +2,11 @@
 import React from 'react';
 
 interface YouTubeVideoProps {
-  videoId: string; // The ID of the YouTube video to embed
+  videoId: string // The ID of the YouTube video to embed
 }
 
 const YouTubeVideo: React.FC<YouTubeVideoProps> = ({ videoId }) => {
-  const videoUrl = `https://www.youtube.com/embed/${videoId}`;
+  const videoUrl = `https://www.youtube.com/embed/${videoId}`
 
   return (
     <div className="video-container">
@@ -19,7 +19,7 @@ const YouTubeVideo: React.FC<YouTubeVideoProps> = ({ videoId }) => {
         allowFullScreen
       ></iframe>
     </div>
-  );
-};
+  )
+}
 
-export default YouTubeVideo;
+export default YouTubeVideo
