@@ -16,7 +16,7 @@ const MainPage: React.FC = () => {
       >
         Improve Your Safety Without Spending a Fortune.
       </h2>
-      <p style={{ textUnderlinePosition:underline; textAlign: 'left', paddingTop: '10px', color: '#0e3e67', fontSize: '30px' ,}}>
+      <p style={{ textAlign: 'left', paddingTop: '10px', color: '#0e3e67', fontSize: '30px'}}>
       - Immediate crisis alerts and communication <br />
       - Simple immediate alert activation alert uses Amber Alert style alarm <br />
         - Customizable alert includes location of threat <br />
