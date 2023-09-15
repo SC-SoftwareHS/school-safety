@@ -113,9 +113,7 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
       name: author.name,
     }
   })
-
   const Layout = layouts[post.layout || defaultLayout]
-
   return (
     <>
       <script
