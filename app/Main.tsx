@@ -11,7 +11,6 @@ const MainPage: React.FC = () => {
           color: '#0e3e67',
           fontSize: '40px',
           fontWeight: 'bold',
-          font
         }}
       >
         Improve Your Safety Without Spending a Fortune.
