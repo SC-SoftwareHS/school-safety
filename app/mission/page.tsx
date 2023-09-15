@@ -20,7 +20,7 @@ const MissionPage: React.FC = () => {
         emergencies as well. When used in conjunction with an intercom, our app can help save costly
         seconds in a crisis. We hope you will be a part of our school safety community!
       </p>
-      <h2 style={{ fontSize: '24px', fontWeight: 'bold', color: '#fa7002', paddingTop: '10px'}}>
+      <h2 style={{ fontSize: '24px', fontWeight: 'bold', color: '#fa7002', paddingTop: '10px' }}>
         Our Story
       </h2>
       <p style={{ textAlign: 'center', paddingTop: '10px' }}>
