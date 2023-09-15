@@ -1,5 +1,3 @@
-import React from 'react';
-
 const MissionPage: React.FC = () => {
   return (
     <div style={{ textAlign: 'center', paddingTop: '50px' }}>
