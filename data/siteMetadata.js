@@ -1,9 +1,9 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Immediate Active Threat Response',
+  title: 'EMERGENCY MANAGEMENT SOFTWARE',
   author: 'Tails Azimuth',
   headerTitle: 'LockNow ',
-  description: 'Immediate Active Threat Response',
+  description: 'Improved Safety For All Facilities',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
