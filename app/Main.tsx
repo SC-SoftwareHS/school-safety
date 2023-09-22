@@ -37,11 +37,8 @@ const MainPage: React.FC = () => {
           // layout="responsive"
           // objectFit="cover"
           quality={100}
-
         />
       </div>
-
-
       <h2
         style={{
           textAlign: 'left',
