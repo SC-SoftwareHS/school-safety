@@ -26,7 +26,7 @@ module.exports = {
       },
       colors: {
         primary: colors.blue,
-        gray: colors.gray,
+        white: colors.white,
       },
       typography: ({ theme }) => ({
         DEFAULT: {
@@ -46,7 +46,7 @@ module.exports = {
               fontWeight: '600',
             },
             code: {
-              color: theme('colors.indigo.500'),
+              color: theme('colors.blue.500'),
             },
           },
         },

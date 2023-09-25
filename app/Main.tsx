@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { HiOutlineOfficeBuilding, HiUserGroup } from 'react-icons/hi'
+import { PiGearSixBold } from 'react-icons/pi'
 
 const MainPage: React.FC = () => {
   return (
@@ -41,25 +43,93 @@ const MainPage: React.FC = () => {
       </div>
       <h2
         style={{
-          textAlign: 'left',
+          textAlign: 'center',
           paddingTop: '35px', // Add 'px' to the paddingTop value
           color: '#0e3e67',
           fontSize: '30px',
           fontWeight: 'bold',
+          paddingBottom: '20px',
         }}
       >
         Improve Your Safety Without Spending a Fortune.
       </h2>
-      <p style={{ textAlign: 'left', paddingTop: '10px', color: '#0e3e67', fontSize: '20px' }}>
-        - Immediate crisis alerts and communication <br />
-        - Simple immediate alert activation alert uses Amber Alert style alarm <br />
-        - Customizable alert includes location of threat <br />
-        - Includes SRO's and police for faster response <br />
-        - Live messaging to share crisis updates
-        <br />
-        - Easily accommodates multiple campuses
-        <br />- Affordable!
-      </p>
+      <div className="bg-primary-500">
+        <div className="max-w-4xl mx-auto px-4 py-8 sm:px-6 sm:pb-24 lg:max-w-7xl lg:pt-24 ">
+          <h2 className="text-3xl font-extrabold text-white tracking-tight">
+            The Locknow Safety App
+          </h2>
+          <p className="text-lg font-medium text-white">
+            The Locknow Safety App provides the most critical abilities to your facility during any
+            emergency.
+          </p>
+          <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
+            <div>
+              <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                <HiOutlineOfficeBuilding size={25} color="white" />
+              </span>
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">
+                  {' '}
+                  Immediate Awareness Facility-Wide
+                </h3>
+                <p className="mt-2 text-base text-primary-200">more text</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                  <HiUserGroup size={25} color="white" />
+                </span>
+              </div>
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">
+                  Ongoing Communication for Everyone
+                </h3>
+                <p className="mt-2 text-base text-primary-200">more text</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                  <svg
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    className="h-6 w-6 text-white"
+                    aria-hidden="true"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">Customizable Features</h3>
+                <p className="mt-2 text-base text-primary-200">more text</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                  <PiGearSixBold size={25} color="white" />
+                </span>
+              </div>
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">Affordable</h3>
+                <p className="mt-2 text-base text-primary-200">more text</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
