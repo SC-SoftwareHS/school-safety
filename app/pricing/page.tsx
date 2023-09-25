@@ -33,8 +33,8 @@ const PricingPage: React.FC = () => {
                 </svg>
               </span>
             </div>
-        <div className="mt-6">
-          <h3 className="text-lg font-medium text-white">Schedule Threads</h3>
+            <div className="mt-6">
+              <h3 className="text-lg font-medium text-white">Schedule Threads</h3>
               <p className="mt-2 text-base text-primary-200">
                 Create and schedule threads with Notion blocks like texts, images, GIFs, lists,
                 to-dos, bookmarks, etc.
@@ -105,7 +105,7 @@ const PricingPage: React.FC = () => {
           </div>
           <div>
             <div>
-            <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+              <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
                 <svg
                   stroke="currentColor"
                   fill="none"
