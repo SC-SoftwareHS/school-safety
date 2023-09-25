@@ -1,7 +1,9 @@
+'use client'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { HiOutlineOfficeBuilding, HiUserGroup } from 'react-icons/hi'
 import { PiGearSixBold } from 'react-icons/pi'
+import Counter from '@/components/counter'
 
 const MainPage: React.FC = () => {
   return (
@@ -20,6 +22,9 @@ const MainPage: React.FC = () => {
       <h1 style={{ color: '#0e3e67', fontSize: '30px', fontWeight: 'bold', textAlign: 'center' }}>
         Improved Safety For All Facilities
       </h1>
+      <div style={{ fontSize: '50px', fontWeight: 'bold', textAlign: 'center' }}>
+        Currently protecting <Counter /> People
+      </div>
 
       <div
         style={{
