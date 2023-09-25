@@ -2,7 +2,7 @@
 import React from 'react'
 import counter from '@/components/counter'
 
-import Counter from '@/components/counter'; // import the counter component
+import Counter from '@/components/counter' // import the counter component
 
 const TestPage = () => {
   return (
